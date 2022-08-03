@@ -28,10 +28,10 @@ public class Hello{
         System.out.println("Hello World!");
         
         //starts the program and waits for 3 seconds
-        Runtime runTime = Runtime.getRuntime();
-        String executablePath = "C:\\Program Files (x86)\\TisWin3\\TisWin3.exe";
-        Process process = runTime.exec(executablePath); 
-        TimeUnit.SECONDS.sleep(5);
+        //Runtime runTime = Runtime.getRuntime();
+        //String executablePath = "C:\\Program Files (x86)\\TisWin3\\TisWin3.exe";
+        //Process process = runTime.exec(executablePath); 
+        //TimeUnit.SECONDS.sleep(5);
 
         //moves mouse to Login button and clicks it
         Robot robot = new Robot();
