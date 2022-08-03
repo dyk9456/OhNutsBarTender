@@ -14,6 +14,16 @@ public class Hello{
         int LoginX = 16;
         int LoginY = 40;
 
+        int searchX = 142;
+        int searchY = 173;
+
+        //needs double click to work
+        int selectItemX = 119;
+        int selectItemY = 198;
+
+
+
+
 
         System.out.println("Hello World!");
         
